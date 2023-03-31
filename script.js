@@ -18,3 +18,6 @@ document.getElementById("boton_habilidades").onclick=function(){
     document.getElementById("dinamico").src="habilidades.html";
     }
     
+document.getElementById("boton_contacto").onclick=function(){
+    document.getElementById("dinamico").src="contacto.html";
+    }
