@@ -54,7 +54,7 @@ button:hover{
 
 .contenedor_body {
   display: flex;
-  height: 80%;
+  height: 75%;
 }
 
 aside {
@@ -67,7 +67,7 @@ section {
   width: 75%;
 }
 
-body, section, .contenedor_header, aside, button {
+body, section, .contenedor_header, aside, button, footer {
   border: 1px solid black;
 }
 
@@ -77,6 +77,19 @@ iframe{
   height: 100%; 
 }
 
+/****** footer *********/
+
+footer{
+  display: flex;
+  height: 5%;
+  background-color: lightskyblue;
+  align-items: center;
+}
+
+i{
+  margin-left: 530px;
+  margin-right: 30px;
+}
 
 /**** PARRAFOS Y LISTAS DEL iframe ****/
 
